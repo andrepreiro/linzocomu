@@ -58,3 +58,8 @@ $('#page-home').live('pageinit', function(event){
         $.mobile.silentScroll(0);
     });
 });
+
+//Close the app - Android
+function closeMeNow() {
+    navigator.app.exitApp();
+	}
